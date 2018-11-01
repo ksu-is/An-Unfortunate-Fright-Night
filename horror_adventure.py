@@ -2,6 +2,19 @@
 # date: 2018-10-23
 # description: Text-based horror adventure game
 
+import tkinter as tk
+window = tk.Tk()
+
+window.title("An Unfortunate Fright Night")
+
+window.geometry("400x400")
+
+# LABEL
+title = tk.Label(text="An Unfortunate Fright Night.  A horror adventure text-based game")
+title.grid()
+
+
+
 import random
 import time
 
