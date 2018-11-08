@@ -7,82 +7,41 @@ window = tk.Tk()
 
 window.title("An Unfortunate Fright Night")
 
-window.geometry("400x400")
+window.geometry("650x650")
+
 
 # LABEL
 title = tk.Label(text="An Unfortunate Fright Night.  A horror adventure text-based game")
-title.grid()
+title.grid(column=0, row=0)
 
+intro1 = tk.Label(text="It was a dark22 and spook night.")
+intro1.grid(column=0, row=1)
+intro2 = tk.Label(text="You come across a haunted, abandoned house on your way to your friend's Halloween party.")
+intro2.grid(column=0, row=2)
+intro3 = tk.Label(text="You are curious to see what is inside.")
+intro3.grid(column=0, row=3)
+intro4 = tk.Label(text='Go inside or Go to the party?')
+intro4.grid(column=0, row=4)
+intro5 = tk.Label(text='...')
+intro5.grid(column=0, row=5)
 
-
-import random
-import time
+# INTRO
 
 def displayIntro():
     print("It was a dark and spooky night.")
-    time.sleep(3)
+    intro1_label.after(900,change)
+
     print("You come across a haunted, abandoned house on your way to your friend's Halloween party.")
-    time.sleep(3)
-    print("You hear the sound of a piano coming from the house.")
-    time.sleep(3)
-    print('Do you go inside or go to the party?')
-    time.sleep(3)
-    print('...')
-
-def chooseOption():
-    option = ""
-    while option != "H" and option != "P": #input validation
-        option = input("Choose a path: (H or P): " )
-
-    return option
-
-def checkOption(chosenOption):
-    print("You have made a decision.")
-    time.sleep(2)
-    print("There's a creepy clown standing at the stop sign near you.")
-    time.sleep(2)
-    print("The clown starts heading in your direction, laughing.")
-    time.sleep(2)
-
-    chosenOption == ""
-    option = ""
-
-    if option == "":
-        print("The clown was just a figment of your imagination.")
-        time.sleep(3)
-        print("Your friend pulls up and asks if you want a lift to the party.")
-        print("You have chosen wisely.  You are safe...for now...")
-
-    while
-        option == "":
-            print("A burst of cold air brushes your shoulder and the door to the house slams shut.")
-            time.sleep(3)
-            print("A masked man comes out of the kitchen with an electric chainsaw.")
-            time.sleep(3)
-            print("He walks towards you, reving the saw.")
-            time.sleep(3)
-            print("You stumble as you flee to escape.")
-            time.sleep(3)
-            print("The masked man stands over your body and ends your existance.")
-    elif
-        option == "":   
-            print("You run away from the clown, terrified for your life.")
-            print("You accidently trip and fall, but when you try to get up, you are greeted by the terrifying grin of the creepy clown.")
-            print("You open your mouth to scream for help, but it is too late!")
-            print("The clown puts you in a bag, picks you up, and walks away laughing")
-            print("You are now a prisoner of the clown.")
-    else
-        option == "":
-            print("The sound of the piano and the eeriness of the abandoned house make you want to skip the party.")
-            print("You turn around, and head home.")
-
-
-playAgain = "Yes"
-while playAgain == "Yes" or playAgain == "Y" or playAgain == "y" or playAgain == "yes":
-    displayIntro()
-    choice = chooseOption()
-    checkOption(choice) #choice is equal to "1" or "2"
-    playAgain = input("Do you want to play again? (Yes or y to go again.) ")
+    intro2_label.after(1200,change)
     
-    if playAgain == "No" or playAgain =="n":
-        print("Better luck next time.  Happy Halloween! (:")
+    print("You are curious to see what is inside.")
+    intro3_label.after(1500,change)
+    
+    print('Go inside or Go to the party?')
+    intro4_label.after(1800,change)
+    
+    print('...')
+    intro5_label.after(2100,change)
+
+
+window.mainloop()
