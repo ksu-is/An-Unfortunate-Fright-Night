@@ -1,3 +1,4 @@
 <ol>
 <li>We've researched text-based adventure games to find a base code to use for our project. We saw many codes, but we had to find one that was closer to the format we want to use. We came TextAdventureGame by HisRoyalFreshness and we forked the code into our repository. You can find it in our repository as project_code_template.py. </li>
 <li>Before we found a code base, Shannon wrote some code using random time code found on YouTube.  This is the <a href="https://www.youtube.com/watch?v=miuHrP2O7Jw">link</a> she referenced the code from.  
+Then we did research on how to put our game inside of a GUI. Then we did research on what code we needed in order to have our game perform inside a GUI. After some research we decided to use Tkinter because it is what most people have used and most easily accessible. Here are some of the links to our research:
