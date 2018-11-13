@@ -6,4 +6,5 @@
 <li>We found a Tkinter code that would have our script come in at a certain time using the Tkinter label after. But our example in our repository uses random but we will not use random.  Here is the <a href="https://stackoverflow.com/questions/25753632/tkinter-how-to-use-after-method">Tkinter: How to Use after Method</a>.</li>
 <li>So far the text is in the GUI but it all comes in at one time instead of scrolling slowly onto the screen. We also have a textfield where the user can type in their choice, like whether they want to use a,b,c,or d and then they press enter for their choice. We know how to put in a textfield and a submit button, but we haven't figured out how to have the user's choices affect the game.</li>
   <li>Shannon and Sydney will be working on script so that it will slowly come into the GUI. We will be working with tkinter_usingafter_gamescript.py.</li> 
+ <li>We will find out why errors are in the code and how to correct it. For example, 
 <li>We will be adding entry label and button tkinter labels into our code. It is the submit button and the textbox(entry). </li>
