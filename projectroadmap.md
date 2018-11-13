@@ -10,3 +10,5 @@
   <li>Shannon and Sydney will be working on script so that it will slowly come into the GUI. We will be working with tkinter_usingafter_gamescript.py. IN PROGRESS</li> 
  <li>We will find out why errors are in the code and how to correct it. For example, when choices show up in the GUI, it will display the options in order but an error pops up because it keeps looping. We need to find out how to stop it from looping continously. IN PROGRESS</li>
 <li>We will be adding entry label and button tkinter labels into our code. It is the submit button and the textbox(entry). IN PROGRESS </li>
+<li>We will be adding more options and story to the base code because the original story of the base code doesn't match what game we want our user to experience. IN PROGRESS</li>
+<li>We need to make sure there are no more errors in the code and that there is proper comments in the code to make sure that if anyone needs to look at it, they know what the code does so it is easily editable. IN PROGRESS</li>
