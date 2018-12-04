@@ -34,7 +34,7 @@ def checkOption(chosenOption):
     correctOption = random.randint(1, 2)
 
     if chosenOption == str(correctOption):
-        print("The clown was just a figment of your imagination.")
+        print("Luckily, the clown was just a figment of your imagination.")
         time.sleep(3)
         print("Your friend pulls up and asks if you want a lift to the party.")
         print("You have chosen wisely.  You are safe...for now...")
